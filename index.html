@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
@@ -12,20 +11,21 @@
     <header class="header">
         <img class="logo" src="flitlogo.png" alt="logo flit">
         <ul class="nav-bar">
-            <li><a class="nav" href="index.html">Home</a></li>
-            <li><a class="nav" href="Participantes.html">Participantes</a></li>
-            <li><a class="nav"href="Sobre nós.html">Home</a></li>
+            <li class="li"><a class="nav" href="index.html">Home</a></li>
+            <li class="li"><a class="nav" href="participantes.html">Participantes</a></li>
+            <li class="li"><a class="nav"href="sobre.html">Sobre Nós</a></li>
         </ul>
     </header>
 
     <section class="container">
-            <img class="seta" src="seta-esquerda.png" alt="seta-esquerda">
-            <img class="foto-participante" src="diego.enc" alt="diego">
-            <img class="seta" src="seta-direita.png" alt="seta-direita">
+            <img id="seta-esquerda" class="seta" src="seta-esquerda.png" alt="seta-esquerda">
+            <a class="nav" href="participantes.html">  <img id="imagem" class="foto-participante" src="diego.enc" alt="diego"> </a></li>
+            <img id="seta-direita" class="seta" src="seta-direita.png" alt="seta-direita">
     </section>
 
     <div>
-        <p class="nome-participante">Diego Alves Teixeira</p>
+        <p id="nome-participante" class="nome-participante">Diego Alves Teixeira</p>
     </div>
+        <script src="script.js"></script>
 </body>
 </html>
